@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://qqbot3fap7eh"]
+
+[node name="Tree" type="Node2D" unique_id=1752506129]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1217431845]
+offset_left = 850.0
+offset_top = 284.0
+offset_right = 910.0
+offset_bottom = 516.0
+color = Color(0.22352941, 0.09019608, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=241650932]
+offset_left = 778.0
+offset_top = 192.0
+offset_right = 978.0
+offset_bottom = 308.0
+color = Color(0.68235296, 0.8980392, 0.63529414, 1)

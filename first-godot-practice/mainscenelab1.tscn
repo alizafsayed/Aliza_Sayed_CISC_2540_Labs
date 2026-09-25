@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cbb02e6rh2nqp"]
+
+[ext_resource type="Texture2D" uid="uid://ncf8o5b41odx" path="res://cat png.png" id="1_wgedt"]
+[ext_resource type="Texture2D" uid="uid://cl5peffwhxna7" path="res://dog png.png" id="2_bru80"]
+[ext_resource type="PackedScene" uid="uid://qqbot3fap7eh" path="res://tree.tscn" id="3_lhc7t"]
+
+[node name="Node2D" type="Node2D" unique_id=1837878933]
+
+[node name="CatPng" type="Sprite2D" parent="." unique_id=383062495]
+position = Vector2(680.00006, 499.99997)
+scale = Vector2(0.16800004, 0.16375002)
+texture = ExtResource("1_wgedt")
+
+[node name="DogPng" type="Sprite2D" parent="." unique_id=20994981]
+position = Vector2(466.00003, 502.99997)
+scale = Vector2(0.158125, 0.15583333)
+texture = ExtResource("2_bru80")
+
+[node name="Tree" parent="." unique_id=1752506129 instance=ExtResource("3_lhc7t")]
+position = Vector2(-89, 55)
+
+[node name="Tree2" parent="." unique_id=87470792 instance=ExtResource("3_lhc7t")]
+position = Vector2(-755, 55)
+
+[node name="Tree3" parent="." unique_id=470540373 instance=ExtResource("3_lhc7t")]
+position = Vector2(-534, 55)
+
+[node name="Tree4" parent="." unique_id=1919279309 instance=ExtResource("3_lhc7t")]
+position = Vector2(132, 54)
+
+[node name="Tree5" parent="." unique_id=1641535982 instance=ExtResource("3_lhc7t")]
+position = Vector2(-313, 55)
