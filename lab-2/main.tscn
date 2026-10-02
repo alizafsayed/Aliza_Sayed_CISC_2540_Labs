@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://2446d6lqhdmx"]
+
+[ext_resource type="PackedScene" uid="uid://juxrudi7bghi" path="res://cat.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://cdyawbdy6ln3a" path="res://cat.gd" id="2_h2yge"]
+
+[node name="Node2D" type="Node2D" unique_id=315203025]
+
+[node name="Cat" parent="." unique_id=665972715 instance=ExtResource("1_0xm2m")]
+position = Vector2(312, 324)
+script = ExtResource("2_h2yge")

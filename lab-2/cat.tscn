@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://juxrudi7bghi"]
+
+[ext_resource type="Texture2D" uid="uid://bro7uksobjsrm" path="res://cat.png" id="1_hcucf"]
+
+[node name="Cat" type="Sprite2D" unique_id=665972715]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_hcucf")
