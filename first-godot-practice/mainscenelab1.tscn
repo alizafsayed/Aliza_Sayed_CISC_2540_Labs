@@ -20,7 +20,7 @@ texture = ExtResource("2_bru80")
 position = Vector2(-89, 55)
 
 [node name="Tree2" parent="." unique_id=87470792 instance=ExtResource("3_lhc7t")]
-position = Vector2(-755, 55)
+position = Vector2(-754, 55)
 
 [node name="Tree3" parent="." unique_id=470540373 instance=ExtResource("3_lhc7t")]
 position = Vector2(-534, 55)
