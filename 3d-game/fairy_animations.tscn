@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://dckqrfhe08npc"]
+
+[ext_resource type="PackedScene" uid="uid://bb3u1cypfrgt4" path="res://fairyAnimations.glb" id="1_p602j"]
+[ext_resource type="Material" uid="uid://cjrrs8luxkxb4" path="res://fairyMaterial.tres" id="2_mm1eb"]
+
+[node name="fairyAnimations" unique_id=698653898 instance=ExtResource("1_p602j")]
+
+[node name="Skeleton3D" parent="SmartRigArmature" parent_id_path=PackedInt32Array(82807898) index="0" unique_id=330956166]
+bones/0/position = Vector3(-0.024928289, 0.49248332, 0.07200969)
+bones/0/rotation = Quaternion(-0.09961512, -0.021912288, 0.0019065015, 0.994783)
+bones/1/rotation = Quaternion(-0.22705515, -0.0012374662, -0.013150564, 0.9737924)
+bones/2/rotation = Quaternion(0.37250546, 0.041260656, 0.04011415, 0.9262441)
+bones/3/rotation = Quaternion(0.15745802, -0.0059800604, -0.0019767103, 0.9875056)
+bones/4/rotation = Quaternion(0.11478374, 0.03166957, 0.13074234, 0.9842399)
+bones/5/rotation = Quaternion(-0.30413988, -0.4268474, -0.06873946, 0.84886694)
+bones/8/rotation = Quaternion(0.41502717, 0.43866426, 0.67449516, -0.42471448)
+bones/9/rotation = Quaternion(-0.43938377, 0.31211984, -0.20334415, 0.8174193)
+bones/10/rotation = Quaternion(0.26093364, -0.022024715, -0.0758413, 0.96212095)
+bones/11/rotation = Quaternion(-0.34285203, 0.039060194, -0.18752155, 0.9196535)
+bones/21/rotation = Quaternion(0.4902263, -0.32407057, -0.662192, -0.46492833)
+bones/22/rotation = Quaternion(-0.3716148, -0.45353302, 0.14706638, 0.79660636)
+bones/23/rotation = Quaternion(0.28990555, 0.061679948, 0.06839693, 0.9526134)
+bones/24/rotation = Quaternion(-0.17399964, 0.035703722, -0.22709167, 0.95753795)
+bones/26/rotation = Quaternion(-0.38689205, 0.91528016, -0.034553785, -0.106691144)
+bones/27/rotation = Quaternion(0.10686777, -0.11299116, -0.42489973, 0.8917806)
+bones/28/rotation = Quaternion(-0.0493363, 0.0028135234, -0.16736177, 0.98465633)
+bones/29/rotation = Quaternion(-0.0017085988, -0.0001381602, 7.54602e-05, 0.9999986)
+bones/33/position = Vector3(0.053935487, -0.022769958, -0.045339033)
+bones/33/rotation = Quaternion(0.9843946, 0.09724482, -0.05014407, 0.13782705)
+bones/34/rotation = Quaternion(0.44336528, 0.043127455, -0.047499795, 0.89404196)
+bones/35/rotation = Quaternion(-0.3021867, 0.23368111, 0.051838048, 0.92270756)
+bones/36/rotation = Quaternion(-0.01256569, 0.10727893, -0.46277833, 0.87986904)
+bones/37/rotation = Quaternion(0.34777525, -0.8773812, 0.27383193, -0.18512374)
+bones/38/position = Vector3(-0.052302223, -0.021339064, -0.04367775)
+bones/38/rotation = Quaternion(0.9020706, -0.18177631, 0.3887964, 0.04542616)
+bones/39/rotation = Quaternion(0.24306625, -0.0277599, -0.010954893, 0.96955055)
+bones/40/rotation = Quaternion(-0.29896325, -0.18130907, 0.1001256, 0.9315165)
+bones/41/rotation = Quaternion(0.8138722, -0.56011957, 0.013682412, 0.15391842)
+bones/42/rotation = Quaternion(0.5901428, -0.28306398, 0.56981194, 0.49691114)
+
+[node name="fery_lp" parent="SmartRigArmature/Skeleton3D" index="0" unique_id=171104991]
+surface_material_override/0 = ExtResource("2_mm1eb")
+surface_material_override/1 = ExtResource("2_mm1eb")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://54pqydl6kjfn"]
+
+[ext_resource type="PackedScene" uid="uid://dckqrfhe08npc" path="res://fairy_animations.tscn" id="1_bwnlq"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tjcv3"]
+
+[node name="Fairy" type="CharacterBody3D" unique_id=154773000]
+
+[node name="fairyAnimations" parent="." unique_id=698653898 instance=ExtResource("1_bwnlq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03357172, -0.11621845, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=732389676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.014050961, 0.7763566, 0)
+shape = SubResource("CapsuleShape3D_tjcv3")
