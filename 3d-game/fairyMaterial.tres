@@ -39,7 +39,7 @@ void vertex() {
 	UV = UV * uv1_scale.xy + uv1_offset.xy;
 	float wing_mask = clamp(-VERTEX.z * 10.0, 0.0, 1.0);
 	float hinge = abs(VERTEX.x);
-	VERTEX.z += sin(TIME * 10.0) * flap_strength * wing_mask * hinge;
+	VERTEX.z += sin(TIME * 20.0) * flap_strength * wing_mask * hinge;
 }
 
 void fragment() {
