@@ -2,11 +2,12 @@ extends CharacterBody3D
 
 @export var walk_speed := 3.5
 @export var run_speed := 7.0
+@export var jump_velocity := 5.5 
 @export var fly_speed := 6.5
 @export var vertical_fly_speed := 4.5
 @export var rotation_speed := 10.0
-@export var fly_pitch_degrees := 30.0 # How far downward the fairy's body/head tilts while moving in flight
-@export var tilt_speed := 6.0 
+@export var fly_pitch_degrees := 30.0
+@export var tilt_speed := 6.0
 
 const ANIM_IDLE := "Idle_3"
 const ANIM_WALK := "Walking_Woman"
@@ -25,7 +26,7 @@ func _physics_process(delta: float) -> void:
 	var direction := Vector3(input_dir.x, 0.0, input_dir.y).normalized()
 	var is_sprinting := Input.is_action_pressed("sprint")
 
-	# Toggle flight with Enter 
+	# Toggle flight with Enter
 	if Input.is_action_just_pressed("fly_toggle"):
 		is_flying = !is_flying
 		if is_flying:
@@ -35,6 +36,7 @@ func _physics_process(delta: float) -> void:
 			return
 
 	if is_flying:
+		# flight movement
 		if direction != Vector3.ZERO:
 			velocity.x = direction.x * fly_speed
 			velocity.z = direction.z * fly_speed
@@ -49,8 +51,11 @@ func _physics_process(delta: float) -> void:
 		if is_on_floor() and vertical_input < 0.0:
 			is_flying = false
 	else:
+		# Ground gravity &  "jump" action
 		if not is_on_floor():
 			velocity.y -= gravity * delta
+		elif Input.is_action_just_pressed("jump"):
+			velocity.y = jump_velocity
 
 		# Ground walk / run movement
 		var current_speed := run_speed if is_sprinting else walk_speed
@@ -78,6 +83,8 @@ func _update_animation(direction: Vector3, is_sprinting: bool) -> void:
 
 	if is_flying:
 		target_anim = ANIM_FLY
+	elif not is_on_floor():
+		target_anim = ANIM_RUN
 	elif direction != Vector3.ZERO:
 		target_anim = ANIM_RUN if is_sprinting else ANIM_WALK
 
