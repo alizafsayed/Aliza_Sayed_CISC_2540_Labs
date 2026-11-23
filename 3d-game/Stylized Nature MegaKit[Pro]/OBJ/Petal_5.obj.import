@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://da78uo6jx3low"
+path="res://.godot/imported/Petal_5.obj-581d4a9095eebd46535fff4c429e4f1c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Petal_5.obj-581d4a9095eebd46535fff4c429e4f1c.mesh"]
+
+source_file="res://Stylized Nature MegaKit[Pro]/OBJ/Petal_5.obj"
+dest_files=["res://.godot/imported/Petal_5.obj-581d4a9095eebd46535fff4c429e4f1c.mesh", "res://.godot/imported/Petal_5.obj-581d4a9095eebd46535fff4c429e4f1c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

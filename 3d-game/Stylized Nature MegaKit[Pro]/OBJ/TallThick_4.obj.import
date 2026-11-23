@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmy8c4tci18o7"
+path="res://.godot/imported/TallThick_4.obj-2d712a0b2967c315e2e774bb7d8e6130.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TallThick_4.obj-2d712a0b2967c315e2e774bb7d8e6130.mesh"]
+
+source_file="res://Stylized Nature MegaKit[Pro]/OBJ/TallThick_4.obj"
+dest_files=["res://.godot/imported/TallThick_4.obj-2d712a0b2967c315e2e774bb7d8e6130.mesh", "res://.godot/imported/TallThick_4.obj-2d712a0b2967c315e2e774bb7d8e6130.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

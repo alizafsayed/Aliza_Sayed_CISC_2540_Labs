@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bgql6j20nmccu"]
+
+[ext_resource type="PackedScene" uid="uid://54pqydl6kjfn" path="res://fairy.tscn" id="1_m30i6"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2mblh"]
+sky_top_color = Color(0.3019608, 0.6509804, 1, 1)
+sky_horizon_color = Color(0.7294118, 0.9019608, 0.99215686, 1)
+ground_bottom_color = Color(0.7294118, 0.9019608, 0.99215686, 1)
+ground_horizon_color = Color(0.7294118, 0.9019608, 0.99215686, 1)
+
+[sub_resource type="Sky" id="Sky_d2obq"]
+sky_material = SubResource("ProceduralSkyMaterial_2mblh")
+
+[sub_resource type="Environment" id="Environment_tjcv3"]
+background_mode = 2
+sky = SubResource("Sky_d2obq")
+
+[sub_resource type="BoxMesh" id="BoxMesh_tjcv3"]
+size = Vector3(500, 1, 500)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d2obq"]
+size = Vector3(500, 1, 500)
+
+[node name="Garden" type="Node3D" unique_id=357098767]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1752145156]
+environment = SubResource("Environment_tjcv3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=213651556]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=1856774968]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=426989165]
+mesh = SubResource("BoxMesh_tjcv3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=688646620]
+shape = SubResource("BoxShape3D_d2obq")
+
+[node name="Fairy" parent="." unique_id=154773000 instance=ExtResource("1_m30i6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

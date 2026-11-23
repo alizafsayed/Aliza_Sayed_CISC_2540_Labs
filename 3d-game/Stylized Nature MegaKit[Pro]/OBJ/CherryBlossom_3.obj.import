@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://406n52elxohy"
+path="res://.godot/imported/CherryBlossom_3.obj-cd48da4a99d7344d7a00e1c4da608a76.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CherryBlossom_3.obj-cd48da4a99d7344d7a00e1c4da608a76.mesh"]
+
+source_file="res://Stylized Nature MegaKit[Pro]/OBJ/CherryBlossom_3.obj"
+dest_files=["res://.godot/imported/CherryBlossom_3.obj-cd48da4a99d7344d7a00e1c4da608a76.mesh", "res://.godot/imported/CherryBlossom_3.obj-cd48da4a99d7344d7a00e1c4da608a76.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
