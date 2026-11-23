@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://d1jnd13rv3p5t" path="res://Stylized Nature MegaKit[Pro]/FBX/Flower_3_Group.fbx" id="2_2vcl1"]
 [ext_resource type="PackedScene" uid="uid://d0ax0mxl7mtc8" path="res://Stylized Nature MegaKit[Pro]/FBX/Flower_2_Group.fbx" id="3_gc0xh"]
 [ext_resource type="PackedScene" uid="uid://dyhhq4odu1mcw" path="res://Stylized Nature MegaKit[Pro]/FBX/TwistedTree_5.fbx" id="4_qb2l5"]
+[ext_resource type="PackedScene" uid="uid://lkj8r452khqf" path="res://Stylized Nature MegaKit[Pro]/FBX/Rock_Medium_4.fbx" id="5_i01nk"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2mblh"]
 sky_top_color = Color(0.3019608, 0.6509804, 1, 1)
@@ -55,4 +56,7 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.8428245, 0.45988047, 0)
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 2.5674949, 0.45309997, 2.9429927)
 
 [node name="TwistedTree_5" parent="." unique_id=2106047266 instance=ExtResource("4_qb2l5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6388407, 0.7023239, -2.248372)
+transform = Transform3D(2.01, 0, 0, 0, 2.01, 0, 0, 0, 2.01, 6.946757, 0.7939137, -7.4572353)
+
+[node name="Rock_Medium_4" parent="." unique_id=47781550 instance=ExtResource("5_i01nk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.83031166, 0.50206184, -7.8926015)
