@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://bgql6j20nmccu"]
 
 [ext_resource type="PackedScene" uid="uid://54pqydl6kjfn" path="res://fairy.tscn" id="1_m30i6"]
+[ext_resource type="PackedScene" uid="uid://d1jnd13rv3p5t" path="res://Stylized Nature MegaKit[Pro]/FBX/Flower_3_Group.fbx" id="2_2vcl1"]
+[ext_resource type="PackedScene" uid="uid://d0ax0mxl7mtc8" path="res://Stylized Nature MegaKit[Pro]/FBX/Flower_2_Group.fbx" id="3_gc0xh"]
+[ext_resource type="PackedScene" uid="uid://dyhhq4odu1mcw" path="res://Stylized Nature MegaKit[Pro]/FBX/TwistedTree_5.fbx" id="4_qb2l5"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2mblh"]
 sky_top_color = Color(0.3019608, 0.6509804, 1, 1)
@@ -16,7 +19,7 @@ background_mode = 2
 sky = SubResource("Sky_d2obq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m30i6"]
-albedo_color = Color(0.8117647, 0.8117647, 0.49411765, 1)
+albedo_color = Color(0.3764706, 0.7176471, 0.36862746, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_tjcv3"]
 material = SubResource("StandardMaterial3D_m30i6")
@@ -44,3 +47,12 @@ shape = SubResource("BoxShape3D_d2obq")
 
 [node name="Fairy" parent="." unique_id=154773000 instance=ExtResource("1_m30i6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Flower_3_Group" parent="." unique_id=2120818090 instance=ExtResource("2_2vcl1")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.8428245, 0.45988047, 0)
+
+[node name="Flower_2_Group" parent="." unique_id=1788496734 instance=ExtResource("3_gc0xh")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 2.5674949, 0.45309997, 2.9429927)
+
+[node name="TwistedTree_5" parent="." unique_id=2106047266 instance=ExtResource("4_qb2l5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6388407, 0.7023239, -2.248372)
