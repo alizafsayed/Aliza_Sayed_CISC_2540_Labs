@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h86atup13v6w"
-path.s3tc="res://.godot/imported/Bark_PineTree.png-e9d2baa14023c645b8dad67342bfe80a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bark_PineTree.png-58df592438753718f03a6c60ce65f89b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Stylized Nature MegaKit[Pro]/textures/Bark_PineTree.png"
-dest_files=["res://.godot/imported/Bark_PineTree.png-e9d2baa14023c645b8dad67342bfe80a.s3tc.ctex"]
+source_file="res://Stylized Nature MegaKit[Pro]/Textures/Bark_PineTree.png"
+dest_files=["res://.godot/imported/Bark_PineTree.png-58df592438753718f03a6c60ce65f89b.s3tc.ctex"]
 
 [params]
 
