@@ -99,4 +99,4 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 12.222225, 0.49315047, 9.4797
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 15.304714, 0.46732688, 5.8464575)
 
 [node name="Plant_3" parent="." unique_id=739228769 instance=ExtResource("15_wr2o1")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -32.394226, 0.43326187, 4.6119537)
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -15.52682, 0.31080914, 3.354704)

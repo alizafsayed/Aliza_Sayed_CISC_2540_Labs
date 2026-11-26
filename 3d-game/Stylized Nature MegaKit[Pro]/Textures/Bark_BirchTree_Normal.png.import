@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1mwxxkbbmwny"
-path.s3tc="res://.godot/imported/Bark_BirchTree_Normal.png-b3786ba78227373b25465115c55b0fd1.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bark_BirchTree_Normal.png-529a9d103ef996411b8aad2703ca795d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Stylized Nature MegaKit[Pro]/textures/Bark_BirchTree_Normal.png"
-dest_files=["res://.godot/imported/Bark_BirchTree_Normal.png-b3786ba78227373b25465115c55b0fd1.s3tc.ctex"]
+source_file="res://Stylized Nature MegaKit[Pro]/Textures/Bark_BirchTree_Normal.png"
+dest_files=["res://.godot/imported/Bark_BirchTree_Normal.png-529a9d103ef996411b8aad2703ca795d.s3tc.ctex"]
 
 [params]
 
