@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://dtdk8dr12kpau" path="res://Stylized Nature MegaKit[Pro]/FBX/Plant_4.fbx" id="13_55p0u"]
 [ext_resource type="PackedScene" uid="uid://bp3jkin1t32o2" path="res://Stylized Nature MegaKit[Pro]/FBX/Plant_2_Big.fbx" id="14_vmh25"]
 [ext_resource type="PackedScene" uid="uid://c2rfrgapt6axj" path="res://Stylized Nature MegaKit[Pro]/FBX/Plant_3.fbx" id="15_wr2o1"]
+[ext_resource type="PackedScene" uid="uid://7ts1jwetdqw0" path="res://mochi.tscn" id="16_pvuiw"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_2mblh"]
 sky_top_color = Color(0.3019608, 0.6509804, 1, 1)
@@ -100,3 +101,6 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 15.304714, 0.46732688, 5.8464
 
 [node name="Plant_3" parent="." unique_id=739228769 instance=ExtResource("15_wr2o1")]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -15.52682, 0.31080914, 3.354704)
+
+[node name="Mochi" parent="." unique_id=1459268316 instance=ExtResource("16_pvuiw")]
+transform = Transform3D(0.7958834, 0, 0.6054499, 0, 1, 0, -0.6054499, 0, 0.7958834, -2.8497992, 0.5170262, 10.074142)
