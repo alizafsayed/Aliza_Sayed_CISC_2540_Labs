@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://7ts1jwetdqw0"]
+
+[ext_resource type="PackedScene" uid="uid://dv13yypetmb7x" path="res://Forest_Spirits_Pack_v1.0/Forest_Spirits_Pack_v1.0/Models/GLB/Meshy_AI_Happy_Shroom_biped_Animation_Idle_11_withSkin.glb" id="1_jca74"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tjcv3"]
+radius = 0.38427734
+height = 1.0155029
+
+[node name="Mochi" type="CharacterBody3D" unique_id=1459268316]
+
+[node name="Mushroom Body" parent="." unique_id=660295314 instance=ExtResource("1_jca74")]
+
+[node name="Skeleton3D" parent="Mushroom Body/Armature" parent_id_path=PackedInt32Array(660295314, 1555605475) index="0" unique_id=1719799689]
+bones/0/position = Vector3(0.2258426, 11.7943325, 3.9264255)
+bones/0/rotation = Quaternion(0.049052827, -0.12286583, 0.03200385, 0.99069345)
+bones/1/rotation = Quaternion(0.846629, 0.2245143, -0.47825065, 0.0639443)
+bones/2/rotation = Quaternion(0.3077848, 0.39684254, 0.25961518, 0.8248543)
+bones/3/rotation = Quaternion(-0.7873626, 0.048022367, 0.001812929, 0.6146144)
+bones/4/rotation = Quaternion(-0.20572849, 0.023776013, 0.040485702, 0.9774822)
+bones/5/rotation = Quaternion(0.87464595, -0.27646542, 0.39069307, 0.076944076)
+bones/6/rotation = Quaternion(0.31863692, -0.3754191, -0.2294445, 0.83957505)
+bones/7/rotation = Quaternion(-0.8394374, -0.049371906, -0.006546752, 0.54116946)
+bones/8/rotation = Quaternion(-0.18726669, -0.0007953943, -0.044214327, 0.9813133)
+bones/9/rotation = Quaternion(0.1291943, 0.027871657, -0.06245958, 0.98925775)
+bones/10/rotation = Quaternion(-0.04029427, 0.03136844, 0.008498039, 0.9986592)
+bones/11/rotation = Quaternion(-0.08560639, 0.027319886, 0.022733768, 0.995695)
+bones/12/rotation = Quaternion(0.5608243, 0.48285165, -0.509843, 0.43862358)
+bones/13/rotation = Quaternion(0.23779072, 0.08120935, -0.122897446, 0.96008176)
+bones/14/rotation = Quaternion(-0.11192453, -0.014395234, 0.095481336, 0.98901415)
+bones/15/rotation = Quaternion(0.11058411, 0.18000646, -0.030158928, 0.9769643)
+bones/16/rotation = Quaternion(-0.61236584, 0.4290194, -0.454445, -0.48417997)
+bones/17/rotation = Quaternion(0.23108202, -0.07406073, 0.110507935, 0.96379673)
+bones/18/rotation = Quaternion(-0.11322112, 0.02517815, -0.13902198, 0.9834734)
+bones/19/rotation = Quaternion(0.08885705, -0.26138556, 0.091402754, 0.95677984)
+bones/20/rotation = Quaternion(0.08063445, -0.00034147524, 0.0070442357, 0.9967189)
+bones/21/rotation = Quaternion(0.13929719, -0.0018976226, -0.014334882, 0.9901451)
+bones/22/rotation = Quaternion(-0.13621347, 1.5319354e-05, 0.004942067, 0.9906673)
+bones/23/rotation = Quaternion(0.5726116, 9.833824e-06, -0.020795817, 0.8195631)
+
+[node name="AnimationPlayer" parent="Mushroom Body" index="1" unique_id=1160846942]
+autoplay = &"Armature|Idle_11|baselayer"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2008232835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.018849313, 0.52153206, 0.058920518)
+shape = SubResource("CapsuleShape3D_tjcv3")
+
+[editable path="Mushroom Body"]

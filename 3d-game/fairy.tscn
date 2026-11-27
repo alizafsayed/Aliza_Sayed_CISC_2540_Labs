@@ -19,4 +19,4 @@ shape = SubResource("CapsuleShape3D_tjcv3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head" unique_id=1316768285]
-transform = Transform3D(1, 0, 0, 0, 0.9848078, 0.1736482, 0, -0.1736482, 0.9848078, 0, 0, 2.2)
+transform = Transform3D(1, 0, 0, 0, 0.9848078, 0.1736482, 0, -0.1736482, 0.9848078, 0.019091904, -0.16925275, 2.2755501)
